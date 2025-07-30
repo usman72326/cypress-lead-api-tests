@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const ASANA_PAT = process.env.ASANA_PAT;
